@@ -1,24 +1,63 @@
-# README
+# Hello Rails-React
+This project displays random greetings which are received from a database. It is built wtih ruby and postgreql in the back-end, react and redux in the front-end.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![image](./Greetings.png)
 
-Things you may want to cover:
 
-* Ruby version
+## Built With
 
-* System dependencies
+- React
+- Redux
+- Rails
 
-* Configuration
+## Live
+live link
 
-* Database creation
+## Getting Started
 
-* Database initialization
+To get a local copy up and running follow these simple example steps.
+- Clone the repository with:
+`git clone https://github.com/blakbox23/hello-rails-react.git`
 
-* How to run the test suite
+- Install dependencies by running:
+`bundle install`
+`yarn install`
 
-* Services (job queues, cache servers, search engines, etc.)
+- Create database 
 
-* Deployment instructions
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
-* ...
+## Usage
+To run the app in your machine, run `rails s`
+
+
+## Authors
+
+👤 **Peter Mbuthia**
+
+- GitHub: [@Blakbox23](https://github.com/blakbox23)
+- Twitter: [@blakbox23](https://twitter.com/blakbox23)
+- LinkedIn: [Peter Mbuthia](https://www.linkedin.com/in/peter-mbuthia)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/blakbox23/hello-rails-react/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Collegues at Microverse
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
