@@ -1,8 +1,7 @@
 # Hello Rails-React
+This project displays random greetings which are received from a database. It is built wtih ruby and postgreql in the back-end, react and redux in the front-end.
 
-Details
-
-
+![image](./Greetings.png)
 
 
 ## Built With
@@ -22,12 +21,18 @@ To get a local copy up and running follow these simple example steps.
 
 - Install dependencies by running:
 `bundle install`
+`yarn install`
 
+- Create database 
+
+```
+rails db:create
+rails db:migrate
+rails db:seed
+```
 
 ## Usage
 To run the app in your machine, run `rails s`
-
-## Testing
 
 
 ## Authors
