@@ -1,6 +1,9 @@
 class V1::GreetingsController < ApplicationController
   def
-    messages = Message.all
-    render json: messages
+    greeting = Greeting.all.sample
+    render json: {
+      greeting: greeting.Message
+    }.to_json
+    
   end
 end

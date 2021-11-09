@@ -4,7 +4,7 @@ class Greeting extends React.Component {
   render () {
     return (
       <React.Fragment>
-        Greeting: {this.props.greeting}
+        Greeting: heelo
       </React.Fragment>
     );
   }
