@@ -9,10 +9,10 @@
 
 puts "Seeding ..."
 
-Greeting.create(message: 'Hello')
-Greeting.create(message: 'Hi')
-Greeting.create(message: 'Greetings')
-Greeting.create(message: 'Niaje')
-Greeting.create(message: 'Howdy')
+Greeting.create(Message: 'Hello')
+Greeting.create(Message: 'Hi')
+Greeting.create(Message: 'Greetings')
+Greeting.create(Message: 'Niaje')
+Greeting.create(Message: 'Howdy')
 
 puts "Seeding done."
